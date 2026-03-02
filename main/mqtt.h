@@ -22,8 +22,8 @@
 #include "driver/gpio.h"
 #include "esp_err.h"
 
-#define MQTT_BROKER_IP_ADDRESS      "fae84c8242f8470890d733685a23abad.s1.eu.hivemq.cloud"
-#define MQTT_BROKER_PORT            "8883"
+#define MQTT_BROKER_IP_ADDRESS      ""
+#define MQTT_BROKER_PORT            ""
 #define MQTT_TOPIC_SUBSCRIBE        "Langone/Luminaria/Cmd"
 #define MQTT_CLIENT_USERNAME        "luminaria_miau_esp"
 #define MQTT_CLIENT_PASSWORD        "br@ker_h1veMQ"
@@ -36,3 +36,4 @@
 void mqtt_start(void);
 
 #endif /* MAIN_MQTT_H_ */
+
