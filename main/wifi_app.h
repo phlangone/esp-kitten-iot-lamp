@@ -29,8 +29,8 @@
 #define WIFI_APP_TASK_PRIORITY          5           ///< Prioridade da task de aplicação WiFi
 #define WIFI_APP_TASK_CORE_ID           0           ///< Core onde a task de aplicação WiFi será executada
 
-#define WIFI_AP_SSID                    "Nora_2G"   ///< SSID da rede WiFi
-#define WIFI_AP_PASS                    "01111955"  ///< Senha da rede WiFi
+#define WIFI_AP_SSID                    ""   ///< SSID da rede WiFi
+#define WIFI_AP_PASS                    ""  ///< Senha da rede WiFi
 #define WIFI_AP_MAXIMUM_RETRY           5           ///< Número máximo de tentativas de conexão
 
 #define WIFI_STA_IP            "192.168.0.1"          ///< IP estático para a interface WiFi
@@ -79,3 +79,4 @@ BaseType_t wifi_app_send_message(wifi_app_message_e msgID);
 void wifi_app_start(void);
 
 #endif /* MAIN_WIFI_APP_H_ */
+
